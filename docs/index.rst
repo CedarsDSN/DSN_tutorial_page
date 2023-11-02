@@ -5,13 +5,18 @@ Introduction to the Data Science Navigation `Team <https://www.cedars-sinai.edu/
 
 Welcome to the Data Science Navigation team at Cedars-Sinai! We are a dynamic and innovative group of experts dedicated to advancing the frontiers of data-driven research and precision medicine. Our team is committed to developing and optimizing cutting-edge workflows, such as RNA-Seq single-end analysis, to unlock the full potential of biological and clinical data for healthcare breakthroughs.
 
-**Bioinformatics Platforms**
+Contents
+--------
 
-**Introduction**
+.. toctree::
+    :depth: 2
 
-The provided bioinformatics resources empower researchers and clinicians by offering independent and efficient tools for the analysis and visualization of biomedical data up to a specific proficiency level. These resources can also serve as convenient references for bioinformaticians. Our selection includes popular bioinformatics platforms like Galaxy and Qiagen CLC, along with widely-used visualization tools such as Sequin_RNAseq, GraphBio, and shinyCircos.
+   Bioinformatics Platform/index.rst
+   Visualization Apps/index.rst
+   Help/index.rst
 
-**Resources**
+
+
 
 * **Bioinformatics Platforms**
 
