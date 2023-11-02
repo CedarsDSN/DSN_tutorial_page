@@ -15,9 +15,6 @@ Contents
    Visualization Apps/index.rst
    Help/index.rst
 
-
-
-
 * **Bioinformatics Platforms**
 
 1. Galaxy
