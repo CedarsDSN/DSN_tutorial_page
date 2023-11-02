@@ -21,17 +21,19 @@ CLC is a bioinformatics workbench developed by Qiagen and has many modules and w
 * **Visualization Apps**
 
 1. Sequin_RNAseq
-                                                  
-  a.	link: http://esplhpccompbio-positconnect.csmc.edu/content/8a897902-5d78-4c60-8ca2-424fe73c4f18 
-  b.	SEQUIN is a R/Shiny application for analysis and visualization of bulk and single-cell RNA-seq data.
+
+  *	link: http://esplhpccompbio-positconnect.csmc.edu/content/8a897902-5d78-4c60-8ca2-424fe73c4f18 
+  *	SEQUIN is a R/Shiny application for analysis and visualization of bulk and single-cell RNA-seq data.
 
 2.	GraphBio 
-  a.	link: http://esplhpccompbio-positconnect.csmc.edu/content/4911424e-98d1-439f-a3b0-beb0fe29fde7 
-  b.	GraphBIo is a shiny web app to easily perform popular visualization analysis for omics data.
+
+  *	link: http://esplhpccompbio-positconnect.csmc.edu/content/4911424e-98d1-439f-a3b0-beb0fe29fde7 
+  *	GraphBIo is a shiny web app to easily perform popular visualization analysis for omics data.
                                                                                                                                                                                                                
 3.	shinyCircos 
-  a.	link: http://esplhpccompbio-positconnect.csmc.edu/content/042ed00f-bcdf-4268-a2c7-f46967e6dd7d 
-  b.	ShinyCircos is an R/Shiny application with a graphical user interface for interactive creation of Circos plot.
+
+  *	link: http://esplhpccompbio-positconnect.csmc.edu/content/042ed00f-bcdf-4268-a2c7-f46967e6dd7d 
+  *	ShinyCircos is an R/Shiny application with a graphical user interface for interactive creation of Circos plot.
 
 **Help**
 
