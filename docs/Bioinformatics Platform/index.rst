@@ -9,4 +9,4 @@ Contents
     :depth: 2
 
    Galaxy
-   Sequin
+   Qiagen CLC
