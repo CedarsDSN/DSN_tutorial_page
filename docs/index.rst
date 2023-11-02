@@ -21,6 +21,7 @@ Access http://esplgalaxy01.csmc.edu:8080/ and login – userid@csmc.edu (Please 
 The Galaxy instance set up for Cedars-Sinai is free to use by all Cedars-Sinai employees and is a Bioinformatics resource which is connected to the high-performance cluster. It has workflows which are easy to follow and can be run directly from the Galaxy web interface. We can also help you to develop custom workflows. 
 
 RNA-seq single-end tutorial is linked `here <https://galaxy-tutorial-rnaseq-single-end.readthedocs.io/en/latest/>`_
+
 RNA-seq paired-end tutorial is linked `here <https://galaxy-tutorial.readthedocs.io/en/latest/>`_
 
 2. Qiagen CLC
