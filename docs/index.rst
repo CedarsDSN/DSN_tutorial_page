@@ -13,4 +13,4 @@ Contents
 
    Bioinformatics Platform/index.rst
    Visualization Apps/index.rst
-   contact/index.rst
+   Contact/index.rst
