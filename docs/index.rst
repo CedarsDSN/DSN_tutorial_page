@@ -13,4 +13,5 @@ Contents
 
    Bioinformatics Platform/index.rst
    Visualization Apps/index.rst
+   Local Resources/index.rst
    Help/index.rst
