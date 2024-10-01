@@ -8,4 +8,4 @@ There are many local resources available for use by Cedars-Sinai employees. Ther
 
    Treatment Tolerability
    Treatment Discontinuation Risk
-   Platform for Single-cell Science
+   Platform for Single Cell Science
