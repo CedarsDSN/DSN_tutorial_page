@@ -10,6 +10,7 @@ Welcome to the collection of the general computational resources provided by res
    BIRCH.rst
    CHAPPY.rst
    CS-GPT.rst
+   motifBreakR.rst
    PAGER.rst
    PINE.rst
    Platform for Single Cell Science.rst
