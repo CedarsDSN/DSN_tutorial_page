@@ -6,3 +6,4 @@ Welcome to the resources that are more disease specific. These are either availa
 .. toctree::
 
    Breast Cancer/index.rst
+   Inflammatory Bowel Disease/index.rst
