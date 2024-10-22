@@ -6,6 +6,5 @@ There are many local resources available for use by Cedars-Sinai employees. Ther
 .. toctree::
     :depth: 2
 
-   Treatment Tolerability
-   Treatment Discontinuation Risk
-   Platform for Single Cell Science
+   General Computational Resources/index.rst
+   
