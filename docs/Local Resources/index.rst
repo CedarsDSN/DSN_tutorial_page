@@ -7,4 +7,5 @@ There are many local resources available for use by Cedars-Sinai employees. Ther
     :depth: 2
 
    General Computational Resources/index.rst
+   Disease Specific Resources/index.rst
    
