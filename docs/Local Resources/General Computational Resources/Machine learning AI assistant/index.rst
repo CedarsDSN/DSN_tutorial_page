@@ -5,4 +5,4 @@ Under this category, you will find all machine learning AI assistants developed 
 
 .. toctree::
 
-   AUTOQTL.rst
+   Aliro.rst
