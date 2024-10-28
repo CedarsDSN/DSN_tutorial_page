@@ -1,0 +1,3 @@
+**Aliro**
+===========
+Aliro is an open-source software package designed to automate machine learning analysis through a clean web interface. By infusing the power of large language models, the user can interact with their data by seamlessly retrieving and executing code pulled from the large language model, accelerating automated discovery of new insights from data. Aliro includes a pre-trained machine learning recommendation system that can assist the user to automate the selection of machine learning algorithms and its hyperparameters and provides visualization of the evaluated model and data. The github link is `here <https://github.com/EpistasisLab/Aliro>`_
