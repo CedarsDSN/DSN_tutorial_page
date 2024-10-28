@@ -2,3 +2,7 @@
 =================================
 
 Under this category, you will find all machine learning AI assistants developed at Cedars-Sinai medical center. 
+
+.. toctree::
+
+   AUTOQTL.rst
