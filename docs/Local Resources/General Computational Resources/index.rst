@@ -5,8 +5,7 @@ Welcome to the collection of the general computational resources provided by res
 
 .. toctree::
 
-   AUTOQTL.rst
-   Aliro.rst
+   Machine learning AI assistant/index.rst
    BIRCH.rst
    CHAPPY.rst
    CS-GPT.rst
