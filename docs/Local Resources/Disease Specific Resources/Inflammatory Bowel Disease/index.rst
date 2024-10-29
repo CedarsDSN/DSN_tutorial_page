@@ -5,4 +5,4 @@ Welcome to all the tools that are available for Inflammatory Bowel Disease, also
 
 .. toctree::
 
-   IBDandme.rst
+   Decision tools/index.rst
