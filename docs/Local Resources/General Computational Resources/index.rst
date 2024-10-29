@@ -9,9 +9,7 @@ Welcome to the collection of the general computational resources provided by res
    Automated machine learning/index.rst
    Genotype encoding/index.rst
    Machine learning AI assistant/index.rst
+   Transcriptomics analysis/index.rst
    BIRCH.rst
    motifBreakR.rst
-   PAGER.rst
    PINE.rst
-   Platform for Single Cell Science.rst
-   RNA-seq analysis GENAVi.rst
