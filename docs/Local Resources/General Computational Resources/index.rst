@@ -6,6 +6,7 @@ Welcome to the collection of the general computational resources provided by res
 .. toctree::
 
    Machine learning AI assistant/index.rst
+   Automated machine learning/index.rst
    BIRCH.rst
    CHAPPY.rst
    CS-GPT.rst
