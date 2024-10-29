@@ -9,11 +9,8 @@ Welcome to the collection of the general computational resources provided by res
    Automated machine learning/index.rst
    Machine learning AI assistant/index.rst
    BIRCH.rst
-   CHAPPY.rst
-   CS-GPT.rst
    motifBreakR.rst
    PAGER.rst
    PINE.rst
    Platform for Single Cell Science.rst
    RNA-seq analysis GENAVi.rst
-   STREAMLINE.rst
