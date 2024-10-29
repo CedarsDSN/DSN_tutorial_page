@@ -9,7 +9,6 @@ Welcome to the collection of the general computational resources provided by res
    Automated machine learning/index.rst
    Genotype encoding/index.rst
    Machine learning AI assistant/index.rst
+   Transcription factor binding prediction/index.rst
    Transcriptomics analysis/index.rst
-   BIRCH.rst
-   motifBreakR.rst
-   PINE.rst
+   Proteomics analysis/index.rst
