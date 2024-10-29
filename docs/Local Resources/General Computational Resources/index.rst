@@ -7,6 +7,7 @@ Welcome to the collection of the general computational resources provided by res
 
    AI assistant using LLMs/index.rst
    Automated machine learning/index.rst
+   Genotype encoding/index.rst
    Machine learning AI assistant/index.rst
    BIRCH.rst
    motifBreakR.rst
