@@ -5,6 +5,5 @@ These are resources specific to breast cancer.
 
 .. toctree::
 
-   PREDICT.rst
-   Treatment Discontinuation Risk.rst
-   Treatment Tolerability.rst
+   Prediction tools/index.rst
+   Treatment tools/index.rst
