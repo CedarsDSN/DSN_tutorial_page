@@ -6,3 +6,4 @@ Under this category are various tools which are cutting-edge and external to Ced
 .. toctree::
 
    RNA-seq analysis tools/index.rst
+   Single-cell RNA-seq analysis tools/index.rst
