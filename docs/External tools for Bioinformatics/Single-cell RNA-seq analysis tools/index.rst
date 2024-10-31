@@ -1,4 +1,5 @@
 **Single-cell RNA-seq analysis tools**
+======================================
 
 `Seurat <https://satijalab.org/seurat/articles/get_started.html>`_: An R package for single-cell RNA sequencing data analysis, widely used for cell clustering, dimensional reduction, and integration of multiple datasets.
 `ScanPy <https://scanpy.readthedocs.io/en/stable/>`_: A Python-based toolkit for large-scale single-cell gene expression data analysis.
