@@ -9,7 +9,7 @@ Under this section are all cutting-edge proteomics analysis tools.
 
 `Scaffold <https://www.proteomesoftware.com/products/scaffold-5>`_: A proteomics data visualization and analysis platform that integrates multiple experiment datasets and offers comprehensive peptide and protein-level quantitation.
 
-`OpenMS <https://openms.de/>: An open-source software framework that enables developers and researchers to analyze LC-MS and MS/MS data in proteomics, with workflows for both quantitative and qualitative analysis.
+`OpenMS <https://openms.de/>`_: An open-source software framework that enables developers and researchers to analyze LC-MS and MS/MS data in proteomics, with workflows for both quantitative and qualitative analysis.
 
 `Spectronaut <https://biognosys.com/resources/spectronaut-a-groundbreaking-increase-in-identifications/>`_: A paid software for data-independent acquisition (DIA) and parallel reaction monitoring (PRM) analysis, known for its advanced algorithms in proteomics quantification.
 
