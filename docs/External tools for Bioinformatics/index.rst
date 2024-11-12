@@ -5,6 +5,7 @@ Under this category are various tools which are cutting-edge and external to Ced
 
 .. toctree::
 
+   Epigenomics tools/index.rst
    GWAS and Population analysis tools/index.rst
    Proteomics tools/index.rst
    RNA-seq analysis tools/index.rst
