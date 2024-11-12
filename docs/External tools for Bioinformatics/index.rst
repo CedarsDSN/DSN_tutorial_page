@@ -8,6 +8,7 @@ Under this category are various tools which are cutting-edge and external to Ced
    Epigenomics tools/index.rst
    GWAS and Population analysis tools/index.rst
    Metabolomics tools/index.rst
+   Microbiomics tools/index.rst
    Proteomics tools/index.rst
    RNA-seq analysis tools/index.rst
    Single-cell RNA-seq analysis tools/index.rst
