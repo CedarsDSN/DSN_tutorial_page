@@ -11,16 +11,16 @@ Below are tools that are used to conduct GWAS and population analysis-
 
 `GCTA <https://yanglab.westlake.edu.cn/software/gcta/#Overview>`_: Genome-wide complex trait analysis tool for mixed linear models, primarily in GWAS.
 
-`BOLT-LMM <https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html>`: For GWAS, specifically designed for large datasets, using linear mixed models.
+`BOLT-LMM <https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html>`_: For GWAS, specifically designed for large datasets, using linear mixed models.
 
-`GEMMA <https://github.com/genetics-statistics/GEMMA/blob/master/doc/manual.pdf>`: GEMMA (Genome-wide Efficient Mixed Model Association) is a popular tool for performing GWAS and is specifically designed to handle large datasets with mixed linear models (MLM)
+`GEMMA <https://github.com/genetics-statistics/GEMMA/blob/master/doc/manual.pdf>`_: GEMMA (Genome-wide Efficient Mixed Model Association) is a popular tool for performing GWAS and is specifically designed to handle large datasets with mixed linear models (MLM)
 
 **Population Genomics Analysis**
 
-`VCFtools <https://vcftools.github.io/man_latest.html>`: Useful for handling VCF files, including filtering, merging, and basic summary statistics.
+`VCFtools <https://vcftools.github.io/man_latest.html>`_: Useful for handling VCF files, including filtering, merging, and basic summary statistics.
 
-`Admixture <https://dalexander.github.io/admixture/admixture-manual.pdf>`: For inferring population structure and admixture patterns.
+`Admixture <https://dalexander.github.io/admixture/admixture-manual.pdf>`_: For inferring population structure and admixture patterns.
 
-`Haploview <https://www.broadinstitute.org/haploview/tutorial>`: Visualization tool for haplotype patterns and LD analysis in population studies.
+`Haploview <https://www.broadinstitute.org/haploview/tutorial>`_: Visualization tool for haplotype patterns and LD analysis in population studies.
 
 
