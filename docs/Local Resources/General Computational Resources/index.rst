@@ -5,7 +5,7 @@ Welcome to the collection of the general computational resources provided by res
 
 .. toctree::
 
-   AI assistant using LLMs/index.rst
+   AI || Machine learning tools/index.rst
    Automated machine learning/index.rst
    Genotype encoding/index.rst
    Hospital analytics/index.rst
