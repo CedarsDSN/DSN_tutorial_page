@@ -3,7 +3,7 @@
 
 Below are prediction tools for breast cancer prediction. 
 
-.. list-table:: AI || Machine learning tools
+.. list-table:: Breast cancer prediction tools
    :widths: 15 50 25
    :header-rows: 1
 
