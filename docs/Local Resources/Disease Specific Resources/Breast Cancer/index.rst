@@ -5,5 +5,5 @@ These are resources specific to breast cancer.
 
 .. toctree::
 
-   Predict.rst
+   Prediction tools.rst
    Treatment tools.rst
