@@ -9,3 +9,11 @@ table th, table td {
     word-wrap: break-word; /* Break long words if necessary */
     overflow-wrap: break-word; /* Compatible with modern browsers */
 }
+
+/* Override sphinx_rtd_theme's table styles */
+.rst-content table th, 
+.rst-content table td {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+}
