@@ -7,4 +7,3 @@ Discover powerful bioinformatics tools designed to simplify the analysis of comp
     :depth: 2
 
    Transcriptomics analysis tools/index.rst
-   Proteomics analysis tools/index.rst
