@@ -1,7 +1,11 @@
-/* Enable text wrapping in tables */
+/* Ensure proper wrapping in table cells */
 table {
-    table-layout: fixed;
-    width: 100%;
-    word-wrap: break-word;
-    white-space: normal;
+    table-layout: fixed; /* Enforce column widths */
+    width: 100%; /* Ensure table fits within page */
+}
+
+table th, table td {
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if necessary */
+    overflow-wrap: break-word; /* Compatible with modern browsers */
 }
