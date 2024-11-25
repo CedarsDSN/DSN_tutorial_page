@@ -7,4 +7,4 @@ Welcome to the collection of the general computational resources provided by res
 
    AI || Machine learning tools/index.rst
    Automated machine learning/index.rst
-   Bioinformatics analysis/index.rst
+   Bioinformatics analysis tools/index.rst
