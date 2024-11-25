@@ -6,7 +6,4 @@ Welcome to the collection of the general computational resources provided by res
 .. toctree::
 
    AI || Machine learning tools/index.rst
-   Hospital analytics/index.rst
-   Transcription factor binding prediction/index.rst
-   Transcriptomics analysis/index.rst
-   Proteomics analysis/index.rst
+   Bioinformatics analysis/index.rst
