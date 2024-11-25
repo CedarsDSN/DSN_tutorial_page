@@ -5,5 +5,4 @@ Under this category, you can find tools for conducting automated machine learnin
 
 .. toctree::
 
-   AUTOQTL.rst
    STREAMLINE.rst
