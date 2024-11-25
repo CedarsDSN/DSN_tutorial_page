@@ -6,4 +6,5 @@ Welcome to the collection of the general computational resources provided by res
 .. toctree::
 
    AI || Machine learning tools/index.rst
+   Automated machine learning/index.rst
    Bioinformatics analysis/index.rst
