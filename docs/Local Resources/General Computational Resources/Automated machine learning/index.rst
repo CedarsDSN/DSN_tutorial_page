@@ -3,8 +3,8 @@
 
 Under this category, you can find tools for conducting automated machine learning methods. Please use the list below such tools.
 
-.. list-table:: Title
-   :widths: 15 50 25
+.. list-table:: Automated machine learning tools
+   :widths: 18 50 25
    :header-rows: 1
 
    * - Resource
