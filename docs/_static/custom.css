@@ -1,0 +1,7 @@
+/* Enable text wrapping in tables */
+table {
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+}
