@@ -3,7 +3,7 @@
 
 This section covers all tools that are AI assistants that have been created using large language models. Below is the list of such tools developed at Cedars-Sinai Medical Center.
 
-.. list-table:: Title
+.. list-table:: AI || Machine learning tools
    :widths: 15 50 25
    :header-rows: 1
 
