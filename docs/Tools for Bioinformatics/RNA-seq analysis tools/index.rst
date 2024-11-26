@@ -4,7 +4,7 @@
 Below are the list of web applications that can be used to carry out RNA-seq analysis
 
 .. list-table:: RNA-seq analysis tools
-   :widths: 15 50 25
+   :widths: 15 65 20
    :header-rows: 1
 
    * - Resource
