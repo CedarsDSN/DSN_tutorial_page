@@ -4,7 +4,7 @@
 Below are statistical treatment tools developed at Cedars-Sinai for breast cancer treatment.
 
 .. list-table:: Treatment tools for breast cancer
-   :widths: 18 50 25
+   :widths: 20 60 20
    :header-rows: 1
 
    * - Resource
