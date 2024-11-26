@@ -18,4 +18,4 @@ Below are the list of web applications that can be used to carry out RNA-seq ana
      - `Link to resource <https://github.com/developerpiru/BEAVR>`_
    * - iDEP
      - iDEP is a bioinformatics platform for analyzing gene expression data graphically, interactively, and reproducibly. The input file is a gene-level expression matrix derived from RNA-Seq, microarray, proteomics, or other methods. Hosted at South Dakota State Univerisity, iDEP is developed as an R package based on the Golem framework. It seamlessly connects 63 R/Bioconductor packages, 2 web services, and comprehensive annotation and pathway databases for 220 plant and animal species. The workflow can be reproduced by downloading customized R code and related pathway files.
-     - `Link to resource <hhttp://ge-lab.org/idep/>`_
+     - `Link to resource <http://ge-lab.org/idep/>`_
