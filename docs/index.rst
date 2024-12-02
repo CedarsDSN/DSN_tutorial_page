@@ -11,8 +11,6 @@ Contents
 .. toctree::
     :depth: 2
 
-   Bioinformatics Platform/index.rst
-   Visualization Apps/index.rst
-   Local Resources/index.rst
+   Computational Resources/index.rst
    Tools for Bioinformatics/index.rst
    Help/index.rst
