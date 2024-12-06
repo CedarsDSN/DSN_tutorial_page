@@ -11,6 +11,7 @@ Contents
 .. toctree::
     :depth: 2
 
+   Data Resources/index.rst
    Computational Resources/index.rst
    Tools for Bioinformatics/index.rst
    Help/index.rst
