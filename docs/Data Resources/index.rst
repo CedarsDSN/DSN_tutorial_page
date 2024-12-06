@@ -6,5 +6,5 @@ For any analysis to be performed, it is imperative to have good data. Under this
 .. toctree::
     :depth: 2
 
-   Internal Resources.rst
-   Public Resources.rst
+   Internal Resources/index.rst
+   Public Resources/index.rst
