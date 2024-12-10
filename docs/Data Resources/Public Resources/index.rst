@@ -18,4 +18,10 @@ Below is the table containing some information for public data resources
      - `Link to resource <https://www.ukbiobank.ac.uk/>`_. 
    * - TCGA
      -  The Cancer Genome Atlas (TCGA), a landmark cancer genomics program, molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. This joint effort between NCI and the National Human Genome Research Institute began in 2006, bringing together researchers from diverse disciplines and multiple institutions. Over the next dozen years, TCGA generated over 2.5 petabytes of genomic, epigenomic, transcriptomic, and proteomic data.
-     - `Link to resource <https://www.cancer.gov/ccg/research/genome-sequencing/tcga>`_. 
+     - `Link to resource <https://www.cancer.gov/ccg/research/genome-sequencing/tcga>`_.
+   * - CELLxGENE
+     -  CZ CELLxGENE Annotate (pronounced "cell-by-gene") is an interactive data explorer for single-cell datasets, such as those coming from the Human Cell Atlas. Leveraging modern web development techniques to enable fast visualizations of at least 1 million cells, we hope to enable biologists and computational researchers to explore their data. Whether you need to visualize one thousand cells or one million, CELLxGENE Annotate helps you gain insight into your single-cell data.
+     - `Link to resource <https://cellxgene.cziscience.com/datasets>`_.
+   * - Single Cell Portal
+     -  SCP enables data sharing, supports dynamic results visualization, and facilitates scientific exploration across a large repository of single-cell datasets. SCP’s data contributors maintain full control over how their data are shared and presented, without requiring web development expertise. Finally, SCP supports the entire lifecycle of a research project, from sparking an idea, to fine-tuning the data with collaborators, to sharing results in an accessible and interactive way.
+     - `Link to resource <https://singlecell.broadinstitute.org/single_cell>`_.
