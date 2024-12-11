@@ -4,7 +4,7 @@
 Below is the table containing some information for public data resources 
 
 .. list-table:: Internal Resources
-   :widths: 15 50 25
+   :widths: 15 65 15
    :header-rows: 1
 
    * - Resource
