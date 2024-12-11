@@ -31,4 +31,7 @@ Below is the table containing some information for public data resources
    * - Allen Brain Map
      -  The Allen Brain Cell (ABC) Atlas provides a platform for visualizing multimodal single cell data across the mammalian brain and aims to empower researchers to explore and analyze multiple whole-brain datasets simultaneously. This open science resource, developed by the Allen Institute as part of the Brain Knowledge Platform, allows unprecedented insights into the enormous diversity of cell types in the brain and where they are. 
      - `Link to resource <https://portal.brain-map.org/>`_.
+   * - STOmics DB
+     -  Spatial Transcript Omics DataBase (STOmics DB) is a comprehensive repository of literature and Datasets related to spatial transcriptomics topics, and provides convenient tools for Data analysis, search and visualization.
+     - `Link to resource <https://db.cngb.org/stomics/>`_.
    
