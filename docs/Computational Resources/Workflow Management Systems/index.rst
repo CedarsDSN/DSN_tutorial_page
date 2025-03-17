@@ -33,3 +33,7 @@ WMS are critical for handling large-scale computational workloads in bioinformat
 
 Whether running single-cell transcriptomics pipelines, machine learning models, or large-scale simulations, Workflow Management Systems provide the necessary automation, scalability, and reliability to streamline complex computational tasks.
 
+.. toctree::
+    :depth: 2
+
+   Nextflow/index.rst
