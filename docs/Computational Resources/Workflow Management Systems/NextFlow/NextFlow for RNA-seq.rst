@@ -25,7 +25,7 @@ The next thing you would need is to create a samplesheet.csv file that has the i
   sample1,/common/group_folder/data/project_folder/large_data/sample1.fastq.gz,,auto
   sample2,/common/group_folder/data/project_folder/large_data/sample2.fastq.gz,,auto
   sample3,/common/group_folder/data/project_folder/large_data/sample3.fastq.gz,,auto
-  ...
+  and so on..
 
 You are now ready to run NextFlow by using this command providing the above samplesheet.csv
 
