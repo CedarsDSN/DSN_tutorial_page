@@ -41,3 +41,15 @@ You are now ready to run NextFlow by using this command providing the above samp
     --gtf /common/group_folder/reference/Mouse/gencode.vM36.primary_assembly.annotation.gtf.gz \
     --fasta /common/compbiomed-dsn/reference/Mouse/GRCm39.primary_assembly.genome.fa.gz \
     -profile singularity \
+
+
+Note that the above code is for Mouse, but you can change the gtf and fasta to the genome that you are working with.
+
+The above code combines the STAR tool for alignment and the RSEM tool for quantification. However, NextFlow for RNA-seq is not restricted to this combination. You can do various permutations depending on your end goals
+
+- STAR + RSEM
+- STAR + Salmon
+- HISAT2 (No quantification)
+- Pseudoalignment (Kallisto or Salmon)
+
+There are also extensive quality control tools that are executed with the minimum parameters above. You can provide additional ones depending on your end goals. Please refer to this detailed tutorial that was developed by NextFlow developers 
