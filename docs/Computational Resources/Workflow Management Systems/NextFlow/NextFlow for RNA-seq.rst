@@ -36,8 +36,8 @@ You are now ready to run NextFlow by using this command providing the above samp
     --aligner star_rsem \
     --gencode \
     --skip_bigwig \
-    --input /common/compbiomed-dsn/projects/Ljubimov_Alexander_bulktotalRNA_01302025/analysis/nextflow/samplesheet.csv \
-    --outdir /common/compbiomed-dsn/projects/Ljubimov_Alexander_bulktotalRNA_01302025/analysis/nextflow/results  \
-    --gtf /common/compbiomed-dsn/reference/Mouse/gencode.vM36.primary_assembly.annotation.gtf.gz \
+    --input /common/group_folder/data/project_folder/analysis/nextflow/samplesheet.csv \
+    --outdir /common/group_folder/data/project_folder/analysis/nextflow/results  \
+    --gtf /common/group_folder/reference/Mouse/gencode.vM36.primary_assembly.annotation.gtf.gz \
     --fasta /common/compbiomed-dsn/reference/Mouse/GRCm39.primary_assembly.genome.fa.gz \
     -profile singularity \
