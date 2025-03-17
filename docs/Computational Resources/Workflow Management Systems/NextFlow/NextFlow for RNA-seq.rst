@@ -53,3 +53,7 @@ The above code combines the STAR tool for alignment and the RSEM tool for quanti
 - Pseudoalignment (Kallisto or Salmon)
 
 There are also extensive quality control tools that are executed with the minimum parameters above. You can provide additional ones depending on your end goals. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/rnaseq/3.14.0/>`_
+
+**Results**
+
+The results folder will have the alignment and quantification files. It will also contain all the files generated from the quality control steps such as MultiQC, FASTQC, etc.
