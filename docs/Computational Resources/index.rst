@@ -9,6 +9,7 @@ There are many local resources available for use by Cedars-Sinai employees. Ther
    General Computational Resources/index.rst
    Disease Specific Resources/index.rst
    Bioinformatics Platform/index.rst
+   Workflow Management Systems/index.rst
    Visualization Apps/index.rst
    
    
