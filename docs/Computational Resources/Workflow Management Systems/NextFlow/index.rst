@@ -16,3 +16,8 @@ Key Features of Nextflow
 - Interoperability – Compatible with various bioinformatics tools (e.g., GATK, STAR, Salmon, Snakemake) and integrates well with other workflow frameworks like nf-core for community-driven best practices.
 
 Nextflow streamlines the execution of bioinformatics workflows by automating parallelization, dependency management, and resource allocation. Whether working with genomics, transcriptomics, proteomics, or multi-omics datasets, researchers benefit from its scalability, flexibility, and reproducibility.
+
+.. toctree::
+    :depth: 2
+
+   NextFlow for RNA-seq.rst
