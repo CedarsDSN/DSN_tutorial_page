@@ -36,4 +36,4 @@ Whether running single-cell transcriptomics pipelines, machine learning models, 
 .. toctree::
     :depth: 2
 
-   Nextflow/index.rst
+   NextFlow/index.rst
