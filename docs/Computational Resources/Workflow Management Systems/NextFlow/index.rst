@@ -21,3 +21,4 @@ Nextflow streamlines the execution of bioinformatics workflows by automating par
     :depth: 2
 
    NextFlow for RNA-seq.rst
+   NextFlow for smRNAseq.rst
