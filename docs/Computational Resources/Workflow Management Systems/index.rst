@@ -6,7 +6,8 @@ As data-intensive fields such as bioinformatics, computational biology, and data
 What is a Workflow Management System (WMS)?
 A Workflow Management System (WMS) is a software framework that facilitates the design, execution, monitoring, and optimization of computational workflows. These systems handle task automation, parallelization, dependency management, and resource allocation, enabling researchers to focus on analysis rather than manual job execution.
 
-Key Features of Workflow Management Systems
+Key Features of Workflow Management Systems -
+
 - Automation & Orchestration – Automates multi-step computational workflows, reducing manual intervention.
 
 - Parallelization & Scalability – Efficiently distribute tasks across CPUs, GPUs, HPC clusters, and cloud platforms.
@@ -17,10 +18,14 @@ Key Features of Workflow Management Systems
 
 - Interoperability & Modularity – Supports diverse scripting languages (Python, R, Bash, Groovy) and integrates with various tools for genomics, proteomics, machine learning, and data analytics.
 
-Popular Workflow Management Systems
+Popular Workflow Management Systems -
+
 - Nextflow – Groovy-based, highly scalable, and widely used in bioinformatics (supports cloud, HPC, and nf-core pipelines).
+
 - Snakemake – Python-based, user-friendly, and great for bioinformatics and data science workflows.
+
 - Apache Airflow – General-purpose WMS designed for data engineering, automation, and ETL workflows.
+
 - Cromwell (WDL) – Designed by Broad Institute for running genomics workflows at scale.
 
 Why Use a Workflow Management System?
