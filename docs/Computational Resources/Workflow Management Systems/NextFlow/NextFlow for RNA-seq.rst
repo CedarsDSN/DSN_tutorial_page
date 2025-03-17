@@ -26,3 +26,18 @@ The next thing you would need is to create a samplesheet.csv file that has the i
   sample2,/common/group_folder/data/project_folder/large_data/sample2.fastq.gz,,auto
   sample3,/common/group_folder/data/project_folder/large_data/sample3.fastq.gz,,auto
   ...
+
+You are now ready to run NextFlow by using this command providing the above samplesheet.csv
+
+.. code-block:: RST
+
+  nextflow run \
+    nf-core/rnaseq \
+    --aligner star_rsem \
+    --gencode \
+    --skip_bigwig \
+    --input /common/compbiomed-dsn/projects/Ljubimov_Alexander_bulktotalRNA_01302025/analysis/nextflow/samplesheet.csv \
+    --outdir /common/compbiomed-dsn/projects/Ljubimov_Alexander_bulktotalRNA_01302025/analysis/nextflow/results  \
+    --gtf /common/compbiomed-dsn/reference/Mouse/gencode.vM36.primary_assembly.annotation.gtf.gz \
+    --fasta /common/compbiomed-dsn/reference/Mouse/GRCm39.primary_assembly.genome.fa.gz \
+    -profile singularity \
