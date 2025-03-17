@@ -8,9 +8,13 @@ A Workflow Management System (WMS) is a software framework that facilitates the 
 
 Key Features of Workflow Management Systems
 - Automation & Orchestration – Automates multi-step computational workflows, reducing manual intervention.
+
 - Parallelization & Scalability – Efficiently distribute tasks across CPUs, GPUs, HPC clusters, and cloud platforms.
+
 - Reproducibility & Portability – Ensures that workflows can be executed identically across different computing environments using containers (Docker, Singularity) or environment managers (Conda, virtualenv).
+
 - Fault Tolerance & Checkpointing – Detects failures and resumes from checkpoints, improving workflow robustness.
+
 - Interoperability & Modularity – Supports diverse scripting languages (Python, R, Bash, Groovy) and integrates with various tools for genomics, proteomics, machine learning, and data analytics.
 
 Popular Workflow Management Systems
