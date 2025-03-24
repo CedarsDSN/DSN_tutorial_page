@@ -44,6 +44,16 @@ You are now ready to run NextFlow by using this command providing the above samp
 
 
 Note that the above code is for Mouse, but you can change the gtf and fasta to the genome that you are working with.
+- --aligner is the aligner that you wish to use for your NextFlow run. You can specify out of three options - star_salmon, star_rsem, and hisat2. Default is star_salmon.
+- --gencode is used to specify that your gtf annotation is in GENCODE format.
+- --skip_bigwig is used to skip bigWig file creation.
+- --input is used to give the sample sheet which was created above with the FASTQ files for RNAseq analysis.
+- --outdir is used to provide the path of the folder which will contain the results of the NextFlow run.
+- --gtf is used to provide the gene annotation file for alignment and quantification.
+- --fasta is used to provide the genome FASTA file for the organism that you are conducting RNA-seq analysis with.
+-profile singularity is used because we use singularity to run NextFlow on HPC.
+
+The GTF files and FASTA files for common organisms can be downloaded from UCSC genome browser `here <https://hgdownload.soe.ucsc.edu/downloads.html>`_ or from ENSEMBL `here <https://useast.ensembl.org/index.html>`_.
 
 The above code combines the STAR tool for alignment and the RSEM tool for quantification. However, NextFlow for RNA-seq is not restricted to this combination. You can do various permutations depending on your end goals
 
