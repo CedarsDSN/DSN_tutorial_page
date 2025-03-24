@@ -53,7 +53,7 @@ Note that the above code is for Human, but you can change the genome and mirtrac
 
 - --outdir is used to provide the path of the folder which will contain the results of the NextFlow run.
 
-The workflow conducts many quality control checks and filtering, after which it carries out miRNA quantification. Genome quantification is also an option but it's optional. You can also discover Novel and known miRNAs which is also optional. You can explore the other parameters and details using this tutorial developed by the NextFlow developers here.
+The workflow conducts many quality control checks and filtering, after which it carries out miRNA quantification. Genome quantification is also an option but it's optional. You can also discover Novel and known miRNAs which is also optional. You can explore the other parameters and details using this tutorial developed by the NextFlow developers `here <https://nf-co.re/smrnaseq/2.3.1/>`_.
 
 **Results**
 The quality control files generated through the pipeline will be saved in the results/out directory. The miRNA quantification files will also be available in the same folder. Please navigate to the "Results" section for more information on understanding the results. 
