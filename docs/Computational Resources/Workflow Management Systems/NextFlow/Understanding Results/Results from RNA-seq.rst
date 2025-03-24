@@ -43,3 +43,37 @@ The table below describes the contents of each folder -
      - .log, .yaml, .txt
      - Runtime information about the pipeline execution including software versions, parameters used, and Nextflow logs.
 
+
+**Tips for Exploring Outputs**
+
+- Open HTML reports (fastqc/*.html, multiqc/multiqc_report.html) in your browser to review quality metrics.
+
+- Inspect alignments with tools like samtools or load BAM files into IGV:
+
+.. code-block:: RST
+
+  samtools view star_rsem/sample1.Aligned.toTranscriptome.out.bam | head
+
+- Check gene expression values in star_rsem/sample1.genes.results – it includes estimated counts, TPM, and FPKM values from RSEM.
+
+**Output Validation Checklist**
+
+.. list-table:: Folder with outputs
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Checkpoint
+     - Expected outcome
+   * - FastQC quality scores
+     - > Q30 in most regions
+   * - Trim Galore adapter removal
+     - Adapter content minimized
+   * - STAR alignment rate
+     - >80% uniquely mapped reads
+   * - RSEM gene counts
+     - Non-zero counts for expressed genes
+   * - MultiQC report
+     - Aggregated view with no major warnings
+
+To explore more indepth explanations for interpreting your FASTQC and multiQC reports, you can use this video link for multiQC and this manual for FASTQC. 
+https://www.youtube.com/watch?v=qPbIlO_KWN0&ab_channel=PhilEwels
