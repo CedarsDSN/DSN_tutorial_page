@@ -42,6 +42,23 @@ Now, you can run the pipeline using:
 
 Note that the above code is for Mouse, but you can change the gtf and fasta to the genome that you are working with.
 
+- -profile singularity is used because we use singularity to run NextFlow on HPC.
+
+- --input is used to give the sample sheet which was created above with the FASTQ files for single-cell RNAseq analysis.
+
+- --genome_fasta is used to provide the genome FASTA file for the organism that you are conducting single-cell RNA-seq analysis with.
+
+- --gtf is used to provide the gene annotation file for alignment and quantification.
+
+- --protocol is used to specify the protocol that was used to generate the single cell data e.g. 10x Genomics v2 Chemistry. Can be 'auto' (cellranger only), '10XV1', '10XV2', '10XV3', '10XV4', or any other protocol string that will get directly passed the respective aligner. 
+
+- --aligner is the aligner that you'd like to use for your NextFlow scRNA alignment. It can be one of the following - simpleaf, kallisto, star, cellranger, cellrangerarc, cellrangermulti. simpleaf is the default. 
+
+- --outdir is used to provide the path of the folder which will contain the results of the NextFlow run.
+
+The GTF files and FASTA files for common organisms can be downloaded from UCSC genome browser `here <https://hgdownload.soe.ucsc.edu/downloads.html>`_ or from ENSEMBL `here <https://useast.ensembl.org/index.html>`_.
+
+
 Depending on which pipeline you would like to run, you could run different pipelines under aligner -
 
 - Alevin-Fry + AlevinQC
@@ -54,7 +71,7 @@ Depending on which pipeline you would like to run, you could run different pipel
 
 - UniverSC
 
-Extensive quality checks are performed at each stage. Furthermore, depending on the aligner you would like, you can opt for additional parameters. Please refer to this detailed tutorial that was developed by NextFlow developers here
+Extensive quality checks are performed at each stage. Furthermore, depending on the aligner you would like, you can opt for additional parameters. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/scrnaseq/4.0.0/>`_.
 
 **Results**
 The output directory will contain all the quality control reports and the outputs specific to the aligner chosen. 
