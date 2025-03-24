@@ -80,5 +80,4 @@ The table below describes the contents of each folder -
    * - MultiQC report
      - Aggregated view with no major warnings
 
-To explore more indepth explanations for interpreting your FASTQC and multiQC reports, you can use this video link for multiQC and this manual for FASTQC. 
-https://www.youtube.com/watch?v=qPbIlO_KWN0&ab_channel=PhilEwels
+To explore more indepth explanations for interpreting your FASTQC and multiQC reports, you can use this video `link <https://www.youtube.com/watch?v=qPbIlO_KWN0&ab_channel=PhilEwels>`_ for multiQC and `this <https://mugenomicscore.missouri.edu/PDF/FastQC_Manual.pdf>`_ manual for FASTQC. 
