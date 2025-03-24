@@ -44,9 +44,10 @@ The table below describes the contents of each folder -
      - Runtime information about the pipeline execution including software versions, parameters used, and Nextflow logs.
 
 
-
+-
 
 **Tips for Exploring Outputs**
+==============================
 
 - Open HTML reports (fastqc/*.html, multiqc/multiqc_report.html) in your browser to review quality metrics.
 
@@ -59,8 +60,10 @@ The table below describes the contents of each folder -
 - Check gene expression values in star_rsem/sample1.genes.results – it includes estimated counts, TPM, and FPKM values from RSEM.
 
 
+-
 
 **Output Validation Checklist**
+==============================
 
 .. list-table:: Checklist
    :widths: 30 30
