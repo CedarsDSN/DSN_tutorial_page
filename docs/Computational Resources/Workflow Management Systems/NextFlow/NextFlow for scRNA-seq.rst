@@ -74,7 +74,8 @@ Depending on which pipeline you would like to run, you could run different pipel
 Extensive quality checks are performed at each stage. Furthermore, depending on the aligner you would like, you can opt for additional parameters. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/scrnaseq/4.0.0/>`_.
 
 **Results**
-The output directory will contain all the quality control reports and the outputs specific to the aligner chosen. 
+
+The output directory will contain all the quality control reports and the outputs specific to the aligner chosen. FOr more details, please navigate to the "Results" section.
 
 
 
