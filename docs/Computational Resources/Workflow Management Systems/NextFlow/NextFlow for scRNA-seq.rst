@@ -61,15 +61,13 @@ The GTF files and FASTA files for common organisms can be downloaded from UCSC g
 
 Depending on which pipeline you would like to run, you could run different pipelines under aligner -
 
-- Alevin-Fry + AlevinQC
+- SimpleAF(Alevin-Fry) + AlevinQC
 
 - STARSolo
 
 - Kallisto + BUStools
 
 - Cellranger
-
-- UniverSC
 
 Extensive quality checks are performed at each stage. Furthermore, depending on the aligner you would like, you can opt for additional parameters. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/scrnaseq/4.0.0/>`_.
 
