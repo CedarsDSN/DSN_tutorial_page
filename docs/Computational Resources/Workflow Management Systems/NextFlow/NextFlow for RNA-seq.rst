@@ -74,4 +74,4 @@ There are also extensive quality control tools that are executed with the minimu
 
 **Results**
 
-The results folder will have the alignment and quantification files. It will also contain all the files generated from the quality control steps such as MultiQC, FASTQC, etc.
+The results folder will have the alignment and quantification files. It will also contain all the files generated from the quality control steps such as MultiQC, FASTQC, etc. For more information about the results generated, navigate to the "Results" section.
