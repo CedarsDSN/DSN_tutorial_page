@@ -41,8 +41,20 @@ You are now ready to run NextFlow by using this command providing the above samp
 
 Note that the above code is for Human, but you can change the genome and mirtrace_species to the genome that you are working with.
 
+- -profile singularity is used because we use singularity to run NextFlow on HPC.
+
+- --input is used to give the sample sheet which was created above with the FASTQ files for small RNAseq analysis.
+
+- --genome is used to provide the iGenomes reference.
+
+- --mirtrace_species is used to provide the species for miRTrace. Example values: hsa, mmu... Note that mirTrace relies on miRBase for its species reference. For thr full list of species codes, refer `this <https://www.mirbase.org/browse/>`_.
+
+- --protocol is used to specify the protocol that was used to construct the smRNAseq libraries. Choose on out of these - illumina, nextflex, qiaseq, cats, custom. When running --protocol custom the user must define the 3' Adapter Sequence. If trimming parameters aren't provided the pipeline will deafult to clip_R1 = 0 and three_prime_clip_R1 = 0 (i.e. no extra clipping).
+
+- --outdir is used to provide the path of the folder which will contain the results of the NextFlow run.
+
 The workflow conducts many quality control checks and filtering, after which it carries out miRNA quantification. Genome quantification is also an option but it's optional. You can also discover Novel and known miRNAs which is also optional. You can explore the other parameters and details using this tutorial developed by the NextFlow developers here.
 
 **Results**
-The quality control files generated through the pipeline will be saved in the results/out directory. The miRNA quantification files will also be available in the same folder. 
+The quality control files generated through the pipeline will be saved in the results/out directory. The miRNA quantification files will also be available in the same folder. Please navigate to the "Results" section for more information on understanding the results. 
 
