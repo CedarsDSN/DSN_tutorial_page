@@ -47,7 +47,6 @@ The table below describes the contents of each folder -
 -----
 
 **Tips for Exploring Outputs**
-==============================
 
 - Open HTML reports (fastqc/*.html, multiqc/multiqc_report.html) in your browser to review quality metrics.
 
@@ -63,7 +62,6 @@ The table below describes the contents of each folder -
 ------
 
 **Output Validation Checklist**
-==============================
 
 .. list-table:: Checklist
    :widths: 30 30
