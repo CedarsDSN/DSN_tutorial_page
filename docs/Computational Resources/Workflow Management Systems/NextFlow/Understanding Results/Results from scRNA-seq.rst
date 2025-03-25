@@ -62,3 +62,93 @@ The table below describes the contents of each folder -
 
 Each sample under cellranger/ contains:
 
+.. code-block:: RST
+
+  cellranger/
+  └── sample1/
+      └── outs/
+          ├── filtered_feature_bc_matrix/
+          │   ├── matrix.mtx.gz
+          │   ├── barcodes.tsv.gz
+          │   └── features.tsv.gz
+          ├── metrics_summary.csv
+          ├── web_summary.html
+          └── ... (optional: BAM files, clustering outputs)
+
+You can:
+
+Open web_summary.html for key stats (e.g., # of cells, reads per cell, UMI counts).
+
+Load the filtered matrix into Scanpy or Seurat.
+
+Use metrics_summary.csv for structured QC across samples.
+
+================
+
+**Output Differences with Other Pipelines**
+
+- STARsolo
+
+If you run the workflow using STARsolo, you'll find:
+
+.. code-block:: RST
+
+  star_solo/
+  └── sample1/
+      └── Solo.out/
+          └── Gene/
+              ├── matrix.mtx
+              ├── features.tsv
+              └── barcodes.tsv
+
+Outputs are similar in structure to Cell Ranger.
+
+You can load directly into Scanpy or convert as needed.
+
+- Kallisto + BUStools
+
+If using Kallisto + BUStools, the structure is:
+
+.. code-block:: RST
+
+  kallisto/
+  └── sample1/
+      ├── counts_unfiltered/
+      │   ├── matrix.mtx
+      │   ├── features.tsv
+      │   └── barcodes.tsv
+      └── counts_filtered/
+          ├── matrix.mtx
+          ├── features.tsv
+          └── barcodes.tsv
+
+Filtering may be done via bustools correct and bustools count.
+
+Compatible with standard analysis pipelines after conversion.
+
+SimpleAF (Alevin-Fry) + AlevinQC
+
+With SimpleAF, the outputs live in:
+
+.. code-block:: RST
+
+  alevin/
+  └── sample1/
+      ├── quant.json
+      ├── featureDump.txt
+      ├── filtered_mtx/
+      │   ├── matrix.mtx
+      │   ├── features.tsv
+      │   └── barcodes.tsv
+      └── alevinqc/
+          └── alevinqc_report.html
+
+filtered_mtx/ is analogous to the filtered Cell Ranger output.
+
+alevinQC_report.html provides detailed QC like gene diversity, knee plots, and barcode filtering.
+
+==================
+
+**Output Validation Checklist**
+
+
