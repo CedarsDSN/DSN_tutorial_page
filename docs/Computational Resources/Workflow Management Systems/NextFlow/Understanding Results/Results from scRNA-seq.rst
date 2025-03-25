@@ -87,7 +87,7 @@ Use metrics_summary.csv for structured QC across samples.
 
 **Output Differences with Other Pipelines**
 
-- STARsolo
+- **STARsolo**
 
 If you run the workflow using STARsolo, you'll find:
 
@@ -101,11 +101,11 @@ If you run the workflow using STARsolo, you'll find:
               ├── features.tsv
               └── barcodes.tsv
 
-Outputs are similar in structure to Cell Ranger.
+* Outputs are similar in structure to Cell Ranger.
 
-You can load directly into Scanpy or convert as needed.
+* You can load directly into Scanpy or convert as needed.
 
-- Kallisto + BUStools
+- **Kallisto + BUStools**
 
 If using Kallisto + BUStools, the structure is:
 
@@ -122,11 +122,11 @@ If using Kallisto + BUStools, the structure is:
           ├── features.tsv
           └── barcodes.tsv
 
-Filtering may be done via bustools correct and bustools count.
+* Filtering may be done via bustools correct and bustools count.
 
-Compatible with standard analysis pipelines after conversion.
+* Compatible with standard analysis pipelines after conversion.
 
-- SimpleAF (Alevin-Fry) + AlevinQC
+- **SimpleAF (Alevin-Fry) + AlevinQC**
 
 With SimpleAF, the outputs live in:
 
@@ -143,9 +143,9 @@ With SimpleAF, the outputs live in:
       └── alevinqc/
           └── alevinqc_report.html
 
-filtered_mtx/ is analogous to the filtered Cell Ranger output.
+* filtered_mtx/ is analogous to the filtered Cell Ranger output.
 
-alevinQC_report.html provides detailed QC like gene diversity, knee plots, and barcode filtering.
+* alevinQC_report.html provides detailed QC like gene diversity, knee plots, and barcode filtering.
 
 ==================
 
