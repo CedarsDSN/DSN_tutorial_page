@@ -60,4 +60,21 @@ ___________
 
 **Output Validation Checklist**
 
+.. list-table:: Checklist
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Checkpoint
+     - Expected outcome
+   * - FastQC quality scores
+     - > Q30 in most regions
+   * - Fastp adapter removal
+     - Adapter content largely eliminated
+   * - miRTrace contamination
+     - High percentage of reads mapping to expected organism; minimal tRNA/rRNA contamination
+   * - miRNA quantification
+     - Consistent expression of known abundant miRNAs
+   * - MultiQC report
+     - No critical QC failures; helpful visual summary
+
 
