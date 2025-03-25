@@ -17,3 +17,7 @@ This section describes the content and purpose of each output folder to help you
   ├── scanpy/
   ├── multiqc/
   └── pipeline_info/
+
+
+The table below describes the contents of each folder -
+
