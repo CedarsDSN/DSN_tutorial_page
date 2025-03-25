@@ -151,4 +151,20 @@ With SimpleAF, the outputs live in:
 
 **Output Validation Checklist**
 
+.. list-table:: Checklist
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Checkpoint
+     - Expected outcome
+   * - Read quality (FastQC)
+     - Q30+ average per base
+   * - Adapter trimming
+     - Minimal residual adapter content
+   * - Cell Ranger / STARsolo matrix
+     - Non-empty filtered_feature_bc_matrix or Gene/ matrix
+   * - UMI / gene counts
+     - Reasonable range of cells and detected genes
+   * - QC summary (MultiQC, HTML)
+     - No major warnings
 
