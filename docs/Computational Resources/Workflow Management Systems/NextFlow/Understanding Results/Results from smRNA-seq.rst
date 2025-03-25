@@ -13,3 +13,7 @@ After running the small RNA-seq workflow using Nextflow, the following output fo
   ├── mirtrace/
   ├── multiqc/
   └── pipeline_info/
+
+
+The table below describes the contents of each folder -
+
