@@ -46,3 +46,18 @@ The table below describes the contents of each folder -
      - .log, .yaml, .txt
      - Workflow execution metadata, including software versions, run parameters, and Nextflow logs. Useful for reproducibility.
 
+-----------
+
+**Exploring the Outputs**
+
+Open HTML reports (fastqc/*.html, fastp/*.html, mirtrace/*.html, multiqc/multiqc_report.html) in your browser for visual inspection.
+
+Examine read counts in mirna_quant/ to check for the most abundant miRNAs or total read distribution.
+
+Use grep, cut, or pandas to parse quantification files and generate plots.
+
+___________
+
+**Output Validation Checklist**
+
+
