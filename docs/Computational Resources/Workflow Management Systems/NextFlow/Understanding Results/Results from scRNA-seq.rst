@@ -126,7 +126,7 @@ Filtering may be done via bustools correct and bustools count.
 
 Compatible with standard analysis pipelines after conversion.
 
-SimpleAF (Alevin-Fry) + AlevinQC
+- SimpleAF (Alevin-Fry) + AlevinQC
 
 With SimpleAF, the outputs live in:
 
