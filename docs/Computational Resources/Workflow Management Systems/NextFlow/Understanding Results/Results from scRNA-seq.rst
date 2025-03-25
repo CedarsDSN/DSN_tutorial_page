@@ -55,3 +55,10 @@ The table below describes the contents of each folder -
    * - pipeline_info/
      - Logs, software versions, config
      - For reproducibility and debugging
+
+============
+
+**Exploring CellRanger output**
+
+Each sample under cellranger/ contains:
+
