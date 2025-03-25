@@ -78,3 +78,4 @@ ___________
      - No critical QC failures; helpful visual summary
 
 
+To explore more in-depth explanations for interpreting your FASTQC and multiQC reports, you can use this video `link <https://www.youtube.com/watch?v=qPbIlO_KWN0&ab_channel=PhilEwels>`_ for multiQC and `this <https://mugenomicscore.missouri.edu/PDF/FastQC_Manual.pdf>`_ manual for FASTQC. 
