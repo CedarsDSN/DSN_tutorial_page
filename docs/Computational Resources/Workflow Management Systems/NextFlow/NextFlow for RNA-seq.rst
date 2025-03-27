@@ -22,9 +22,9 @@ The next thing you would need is to create a samplesheet.csv file that has the i
 .. code-block:: RST
 
   sample,fastq_1,fastq_2,strandedness
-  sample1,/common/group_folder/data/project_folder/large_data/sample1.fastq.gz,,auto
-  sample2,/common/group_folder/data/project_folder/large_data/sample2.fastq.gz,,auto
-  sample3,/common/group_folder/data/project_folder/large_data/sample3.fastq.gz,,auto
+  sample1,{path_for_your_data}/sample1.fastq.gz,,auto
+  sample2,{path_for_your_data}/sample2.fastq.gz,,auto
+  sample3,{path_for_your_data}/sample3.fastq.gz,,auto
   and so on..
 
 You are now ready to run NextFlow by using this command providing the above samplesheet.csv
@@ -36,10 +36,10 @@ You are now ready to run NextFlow by using this command providing the above samp
     --aligner star_rsem \
     --gencode \
     --skip_bigwig \
-    --input /common/group_folder/data/project_folder/analysis/nextflow/samplesheet.csv \
-    --outdir /common/group_folder/data/project_folder/analysis/nextflow/results  \
-    --gtf /common/group_folder/reference/Mouse/gencode.vM36.primary_assembly.annotation.gtf.gz \
-    --fasta /common/compbiomed-dsn/reference/Mouse/GRCm39.primary_assembly.genome.fa.gz \
+    --input {path_for_your_samplesheet}/samplesheet.csv \
+    --outdir {path_for_your_results_folder}/results  \
+    --gtf {path_for_your_gtf}/gencode.vM36.primary_assembly.annotation.gtf.gz \
+    --fasta {path_for_your_reference}/GRCm39.primary_assembly.genome.fa.gz \
     -profile singularity \
 
 
