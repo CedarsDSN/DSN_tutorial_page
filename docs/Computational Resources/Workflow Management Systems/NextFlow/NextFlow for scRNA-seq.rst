@@ -33,12 +33,12 @@ Now, you can run the pipeline using:
 
   nextflow run nf-core/scrnaseq \
    -profile singularity \
-   --input samplesheet.csv \
-   --genome_fasta GRCm38.p6.genome.chr19.fa \
-   --gtf gencode.vM19.annotation.chr19.gtf \
+   --input {path_for_your_samplesheet}/samplesheet.csv \
+   --genome_fasta {path_for_your_genome_fasta}/GRCm38.p6.genome.chr19.fa \
+   --gtf {path_for_your_gtf_file}/gencode.vM19.annotation.chr19.gtf \
    --protocol 10XV2 \
    --aligner <alevin/kallisto/star/cellranger/universc> \
-   --outdir <OUTDIR>
+   --outdir {path_for_your_results_folder}/results
 
 Note that the above code is for Mouse, but you can change the gtf and fasta to the genome that you are working with.
 
