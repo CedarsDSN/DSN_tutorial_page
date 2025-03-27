@@ -33,11 +33,11 @@ You are now ready to run NextFlow by using this command providing the above samp
 
   nextflow run nf-core/smrnaseq \
    -profile singularity \
-  --input samplesheet.csv \
+  --input {path_for_your_samplesheet}/samplesheet.csv \
   --genome 'GRCh37' \
   --mirtrace_species 'hsa' \
   --protocol 'illumina' \
-  --outdir <OUTDIR>
+  --outdir {path_for_your_results_folder}/results
 
 Note that the above code is for Human, but you can change the genome and mirtrace_species to the genome that you are working with.
 
