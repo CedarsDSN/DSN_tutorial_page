@@ -53,3 +53,47 @@ The table below describes the contents of each folder -
 
 -----------
 
+**Key output files**
+
+.. list-table:: Checklist
+   :widths: 30 30
+   :header-rows: 1
+
+   * - File type
+     - Description
+   * - *.bam, *.bai
+     - Aligned reads and index files (for IGV or variant callers)
+   * - *.vcf, *.bcf
+     - Variant calls, raw and filtered
+   * - annotated.vcf
+     - Variants with gene annotations and clinical tags
+   * - coverage.txt, stats.csv
+     - Coverage summaries per chromosome or sample
+   * - multiqc_report.html
+     - Visual dashboard for QC metrics
+
+-----------
+
+**Output Validation Checklist**
+
+.. list-table:: Checklist
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Step
+     - Validation
+   * - Read quality (FastQC)
+     - Mean Q > 30, even distribution
+   * - Alignment (BAM files)
+     - >95% mapped reads, proper pairing
+   * - Duplicate removal
+     - Duplicates marked or removed
+   * - Variant calling success
+     - Reasonable number of SNPs/INDELs
+   * - Variant annotation
+     - Annotated VCFs with gene and effect info
+   * - QC overview
+     - All tools successfully summarized in MultiQC
+
+
+
