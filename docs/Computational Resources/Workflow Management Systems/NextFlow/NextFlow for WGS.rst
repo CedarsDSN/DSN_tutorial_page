@@ -33,3 +33,15 @@ The next thing you would need is to create a samplesheet.csv file with informati
   ID3,S2,L001,ID3_S2_L001_R1_001.fastq.gz,ID3_S2_L001_R2_001.fastq.gz
 
 
+You are now ready to run NextFlow by using this command providing the above samplesheet.csv
+
+.. code-block:: RST
+
+  nextflow run nf-core/sarek \
+     -profile singularity \
+     --input samplesheet.csv \
+     --outdir {path_for_your_results_folder}/results
+
+
+
+
