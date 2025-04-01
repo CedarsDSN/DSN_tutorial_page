@@ -9,4 +9,5 @@ Once you have conducted your NextFlow run, the next step is to explore the resul
    Results from RNA-seq.rst
    Results from smRNA-seq.rst
    Results from scRNA-seq.rst
+   Results from WGS.rst
 
