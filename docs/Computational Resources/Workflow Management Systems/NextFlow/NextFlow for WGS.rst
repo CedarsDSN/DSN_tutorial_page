@@ -31,6 +31,7 @@ The next thing you would need is to create a samplesheet.csv file with informati
   ID3,S1,L001,ID3_S1_L001_R1_001.fastq.gz,ID3_S1_L001_R2_001.fastq.gz
   ID3,S1,L002,ID3_S1_L002_R1_001.fastq.gz,ID3_S1_L002_R2_001.fastq.gz
   ID3,S2,L001,ID3_S2_L001_R1_001.fastq.gz,ID3_S2_L001_R2_001.fastq.gz
+This supports multi-lane, multi-sample, and tumor/normal pairings.
 
 
 You are now ready to run NextFlow by using this command providing the above samplesheet.csv
