@@ -49,5 +49,7 @@ This is the default command line that you can use when you don't want to change 
 - --input is the samplesheet.csv that you would create for your samples using the format above
 - --outdir is the folder that would be used by NextFlow to save all results of the pipeline
 
-*Note* - The default genome here is GATK.GRCh38. If you would like to change it to the genome of your choice, you can provide the ID for your reference. The reference for your genome of choice can be found here
+*Note* - The default genome here is GATK.GRCh38. If you would like to change it to the genome of your choice, you can provide the ID for your reference. The reference for your genome of choice can be found `here <https://support.illumina.com/sequencing/sequencing_software/igenome.html>`_
+
+
 
