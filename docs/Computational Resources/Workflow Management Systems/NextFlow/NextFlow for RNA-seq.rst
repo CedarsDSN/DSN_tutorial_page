@@ -59,7 +59,7 @@ Note that the above code is for Mouse, but you can change the gtf and fasta to t
 
 - --fasta is used to provide the genome FASTA file for the organism that you are conducting RNA-seq analysis with.
 
--profile singularity is used because we use singularity to run NextFlow on HPC.
+- --profile singularity is used because we use singularity to run NextFlow on HPC.
 
 The GTF files and FASTA files for common organisms can be downloaded from UCSC genome browser `here <https://hgdownload.soe.ucsc.edu/downloads.html>`_ or from ENSEMBL `here <https://useast.ensembl.org/index.html>`_.
 
