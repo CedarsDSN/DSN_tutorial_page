@@ -34,7 +34,7 @@ The next thing you would need is to create a samplesheet.csv file with informati
 This supports multi-lane, multi-sample, and tumor/normal pairings.
 
 
-You are now ready to run NextFlow by using this command providing the above samplesheet.csv
+You are now ready to run NextFlow by using this command providing the above samplesheet.csv.
 The nf-core/sarek pipeline is a best-practice-compliant, production-ready pipeline for variant calling (both germline and somatic) from Whole Genome (WGS) or Whole Exome Sequencing (WES) data. Built on Nextflow, it supports containerization (Docker/Singularity), cloud computing, and HPC environments, making it reproducible and scalable.
 
 .. code-block:: RST
