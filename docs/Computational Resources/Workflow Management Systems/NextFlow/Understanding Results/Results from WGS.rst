@@ -5,4 +5,19 @@ After running the WGS analysis pipeline, a set of structured output folders is g
 
 This section outlines the purpose of each output folder and what you should expect to find inside. Below is the file structure of the results folder -
 
+.. code-block:: RST
+
+  results/
+  ├── annotation/
+  ├── csv/
+  ├── multiqc/
+  ├── pipeline_info/
+  ├── preprocessing/
+  ├── reference/
+  ├── reports/
+  └── variant_calling/
+
+The table below describes the contents of each folder -
+
+
 
