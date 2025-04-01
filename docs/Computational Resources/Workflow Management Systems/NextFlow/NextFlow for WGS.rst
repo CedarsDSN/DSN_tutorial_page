@@ -71,5 +71,28 @@ This is the default command line that you can use when you don't want to change 
    * - --saveReference
      - Saves intermediate reference files (useful for large-scale runs)
 
+.. list-table:: Tools used in Sarek
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Step
+     - Tools
+   * - QC
+     - FastQC, MultiQC, BCFtools stats
+   * - Trimming (optional)
+     - FastP
+   * - Alignment
+     - bwa-mem (default), bwa-mem2, dragmap, sentieon-bwamem
+   * - MarkDuplicates
+     - GATK MarkDuplicates, Sentieon LocusCollector and Sentieon Dedup
+   * - Base Recalibration
+     - GATK BaseRecalibrator and GATK ApplyBQSR
+   * - Variant Calling
+     - GATK HaplotypeCaller (germline), Mutect2 (somatic), Strelka2, FreeBayes, VarDict
+   * - Annotation
+     - VEP (Variant Effect Predictor)
+   * - Structural Variant
+     - Manta (optional)
+
 
 
