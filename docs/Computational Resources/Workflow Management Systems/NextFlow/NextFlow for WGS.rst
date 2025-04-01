@@ -52,5 +52,24 @@ This is the default command line that you can use when you don't want to change 
 
 *Note* - The default genome here is GATK.GRCh38. If you would like to change it to the genome of your choice, you can provide the ID for your reference. The reference for your genome of choice can be found `here <https://support.illumina.com/sequencing/sequencing_software/igenome.html>`_
 
+.. list-table:: Key pipeline options
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Additional Parameters
+     - Description
+   * - --genome
+     - Genome build (e.g. GRCh38, GRCh37)
+   * - --tools
+     - Comma-separated list of variant callers
+   * - --somatic
+     - Enables somatic calling (requires tumor/normal pairs)
+   * - --germline
+     - Enables germline variant calling
+   * - --step
+     - Run from a specific step (mapping, variant_calling, etc.)
+   * - --saveReference
+     - Saves intermediate reference files (useful for large-scale runs)
+
 
 
