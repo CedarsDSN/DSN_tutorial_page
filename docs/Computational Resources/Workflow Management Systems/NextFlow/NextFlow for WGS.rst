@@ -94,6 +94,7 @@ This is the default command line that you can use when you don't want to change 
    * - Structural Variant
      - Manta (optional)
 
+There are also extensive quality control tools that are executed with the minimum parameters above. You can provide additional ones depending on your end goals. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/sarek/3.5.1/>`_
 
 **Results**
 
