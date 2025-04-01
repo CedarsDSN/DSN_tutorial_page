@@ -18,3 +18,18 @@ Along with the above, it is recommended to provide directories for singularity c
   export TMPDIR=/common/group_folder/projects/temp/project_folder
 
 The next thing you would need is to create a samplesheet.csv file with information about the samples you are using for WGS analysis. The format should be comma-separated columns and should contain the patient ID, sample name, the lane, and the path of the paired fastq files. Each row represents a pair of fastq files. 
+
+.. code-block:: RST
+
+  patient,sample,lane,fastq_1,fastq_2
+  ID1,S1,L001,ID1_S1_L001_R1_001.fastq.gz,ID1_S1_L001_R2_001.fastq.gz
+  ID1,S1,L002,ID1_S1_L002_R1_001.fastq.gz,ID1_S1_L002_R2_001.fastq.gz
+  ID1,S2,L001,ID1_S2_L001_R1_001.fastq.gz,ID1_S2_L001_R2_001.fastq.gz
+  ID2,S1,L001,ID2_S1_L001_R1_001.fastq.gz,ID2_S1_L001_R2_001.fastq.gz
+  ID2,S1,L002,ID2_S1_L002_R1_001.fastq.gz,ID2_S1_L002_R2_001.fastq.gz
+  ID2,S2,L001,ID2_S2_L001_R1_001.fastq.gz,ID2_S2_L001_R2_001.fastq.gz
+  ID3,S1,L001,ID3_S1_L001_R1_001.fastq.gz,ID3_S1_L001_R2_001.fastq.gz
+  ID3,S1,L002,ID3_S1_L002_R1_001.fastq.gz,ID3_S1_L002_R2_001.fastq.gz
+  ID3,S2,L001,ID3_S2_L001_R1_001.fastq.gz,ID3_S2_L001_R2_001.fastq.gz
+
+
