@@ -7,4 +7,4 @@ For any analysis to be performed, it is imperative to have good data. Under this
     :depth: 2
 
    Internal Resources/index.rst
-   Public Resources/index.rst
+   External Resources/index.rst
