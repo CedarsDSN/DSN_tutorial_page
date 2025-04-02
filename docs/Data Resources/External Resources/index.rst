@@ -1,4 +1,4 @@
-**Public Resources**
+**External Resources**
 ====================
 
 Below is the table containing some information for public data resources 
