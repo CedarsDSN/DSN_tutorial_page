@@ -34,7 +34,7 @@ The table below describes the contents of each folder -
      - Raw and filtered variant call files from GATK or other callers. May include SNPs, INDELs, and structural variants.
    * - annotation/
      - .vcf, .txt, .csv
-     - Functionally annotated variants (e.g., via VEP, SnpEff, ANNOVAR), including gene impacts, allele frequencies, and clinical significance.
+     - Functionally annotated variants (e.g., via VEP, SnpEff), including gene impacts, allele frequencies, and clinical significance.
    * - csv/
      - Summarized tables
      - Processed or summarized tabular results, often for downstream stats, visualization, or integration.
