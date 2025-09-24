@@ -6,12 +6,14 @@ NextFlow has been set up for Cedars-Sinai in the compbio cluster (esplhpccompbio
 .. code-block:: RST
 
   module load nextflow
-  module load java/jdk-11.0.12
+  module load singularity-apptainer/1.1.6
 
 Along with the above, it is recommended to provide directories for singularity container execution and temporary storage. 
 
 .. code-block:: RST
 
+  export NXF_SINGULARITY_CLI=apptainer
+  export NXF_SINGULARITY_CACHEDIR=/common/group_folder/data/project_folder/singularity_cache
   export SINGULARITY_TMPDIR=/common/group_folder/data/project_folder
   export SINGULARITY_CACHEDIR=/common/group_folder/data/project_folder/singularity_cache
 
@@ -34,7 +36,19 @@ The next thing you would need is to create a samplesheet.csv file with informati
 This supports multi-lane, multi-sample, and tumor/normal pairings.
 
 
-You are now ready to run NextFlow by using this command providing the above samplesheet.csv.
+You are now ready to run NextFlow by using this command providing the above samplesheet.csv. There are variations to this sample sheet depending on whether you would like to keep the status of the samples and the sex of the patient. This would be the full sample sheet.
+
+.. code-block:: RST
+
+  patient,sex,status,sample,lane,fastq_1,fastq_2
+  patient1,XX,0,normal_sample,lane_1,test_L001_1.fastq.gz,test_L001_2.fastq.gz
+  patient1,XX,0,normal_sample,lane_2,test_L002_1.fastq.gz,test_L002_2.fastq.gz
+  patient1,XX,0,normal_sample,lane_3,test_L003_1.fastq.gz,test_L003_2.fastq.gz
+  patient1,XX,1,tumor_sample,lane_1,test2_L001_1.fastq.gz,test2_L001_2.fastq.gz
+  patient1,XX,1,tumor_sample,lane_2,test2_L002_1.fastq.gz,test2_L002_2.fastq.gz
+  patient1,XX,1,relapse_sample,lane_1,test3_L001_1.fastq.gz,test3_L001_2.fastq.gz
+
+These sample sheets are used when running the WGS pipeline from the mapping stage, but you can still run this pipeline from any of the other stages, like duplicate marking, preparing recalibration tables, creating base quality score recalibration, variant calling, or annotation. For each of the stages, the sample sheet looks different and should be updated accordingly. For more information, please refer to this page `here <https://nf-co.re/sarek/3.5.1/docs/usage>>_ which contains very detailed information on using the NextFlow Sarek pipeline.
 The nf-core/sarek pipeline is a best-practice-compliant, production-ready pipeline for variant calling (both germline and somatic) from Whole Genome (WGS) or Whole Exome Sequencing (WES) data. Built on Nextflow, it supports containerization (Docker/Singularity), cloud computing, and HPC environments, making it reproducible and scalable.
 
 .. code-block:: RST
@@ -94,7 +108,7 @@ This is the default command line that you can use when you don't want to change 
    * - Structural Variant
      - Manta (optional)
 
-There are also extensive quality control tools that are executed with the minimum parameters above. You can provide additional ones depending on your end goals. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/sarek/3.5.1/>`_
+There are also extensive quality control tools that are executed with the minimum parameters above. You can provide additional ones depending on your end goals. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/sarek/3.5.1/>>_
 
 **Results**
 
