@@ -48,7 +48,7 @@ You are now ready to run NextFlow by using this command providing the above samp
   patient1,XX,1,tumor_sample,lane_2,test2_L002_1.fastq.gz,test2_L002_2.fastq.gz
   patient1,XX,1,relapse_sample,lane_1,test3_L001_1.fastq.gz,test3_L001_2.fastq.gz
 
-These sample sheets are used when running the WGS pipeline from the mapping stage, but you can still run this pipeline from any of the other stages, like duplicate marking, preparing recalibration tables, creating base quality score recalibration, variant calling, or annotation. For each of the stages, the sample sheet looks different and should be updated accordingly. For more information, please refer to this page `here <https://nf-co.re/sarek/3.5.1/docs/usage>>_ which contains very detailed information on using the NextFlow Sarek pipeline.
+These sample sheets are used when running the WGS pipeline from the mapping stage, but you can still run this pipeline from any of the other stages, like duplicate marking, preparing recalibration tables, creating base quality score recalibration, variant calling, or annotation. For each of the stages, the sample sheet looks different and should be updated accordingly. For more information, please refer to this page `here <https://nf-co.re/sarek/3.5.1/docs/usage>_ which contains very detailed information on using the NextFlow Sarek pipeline.
 The nf-core/sarek pipeline is a best-practice-compliant, production-ready pipeline for variant calling (both germline and somatic) from Whole Genome (WGS) or Whole Exome Sequencing (WES) data. Built on Nextflow, it supports containerization (Docker/Singularity), cloud computing, and HPC environments, making it reproducible and scalable.
 
 .. code-block:: RST
@@ -108,7 +108,7 @@ This is the default command line that you can use when you don't want to change 
    * - Structural Variant
      - Manta (optional)
 
-There are also extensive quality control tools that are executed with the minimum parameters above. You can provide additional ones depending on your end goals. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/sarek/3.5.1/>>_
+There are also extensive quality control tools that are executed with the minimum parameters above. You can provide additional ones depending on your end goals. Please refer to this detailed tutorial that was developed by NextFlow developers `here <https://nf-co.re/sarek/3.5.1/>_
 
 **Results**
 
